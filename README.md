@@ -18,6 +18,8 @@ sudo sh get-docker.sh
 usermod -aG docker $USER
 newgrp docker
 
+ sudo apt  install docker-compose
+
 
 #another 
 sudo usermod -aG docker $USER

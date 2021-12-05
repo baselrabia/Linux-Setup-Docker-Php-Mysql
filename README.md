@@ -12,6 +12,7 @@ sudo apt install php7.4-common php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-curl
 ## docker >> add user to docker group 
 
 ```bash 
+sudo snap install curl 
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 usermod -aG docker $USER
